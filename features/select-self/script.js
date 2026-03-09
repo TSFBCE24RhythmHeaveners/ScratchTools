@@ -16,7 +16,10 @@ export default async function ({ feature, console }) {
       ["random position", "_random_"],
       ["mouse-pointer", "_mouse_"],
     ],
-    motion_pointtowards_menu: [["random position", "_random_"]],
+    motion_pointtowards_menu:[
+      ["mouse-pointer", "_mouse_"],
+      ["random direction", "_random_"]
+    ],
     sensing_touchingobjectmenu: [
       ["mouse-pointer", "_mouse_"],
       ["edge", "_edge_"],
