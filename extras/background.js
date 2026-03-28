@@ -655,6 +655,7 @@ chrome.tabs.onUpdated.addListener(async function (tabId, info) {
       }
      } getCurrentTab();
     }
+   }
   }
 });
 
