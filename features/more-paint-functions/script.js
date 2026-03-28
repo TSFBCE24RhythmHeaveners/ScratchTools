@@ -111,6 +111,11 @@ export default async function ({ feature, console, scratchClass }) {
           icon: "function-paste",
           callback: paste,
         },
+        {
+          name: "Delete",
+          icon: "function-delete",
+          callback: delete,
+        },
       ];
 
       for (var i in functions) {
