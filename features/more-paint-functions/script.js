@@ -101,6 +101,16 @@ export default async function ({ feature, console, scratchClass }) {
           icon: "function-intersect",
           callback: intersect,
         },
+        {
+          name: "Copy",
+          icon: "function-copy",
+          callback: copy,
+        },
+        {
+          name: "Paste",
+          icon: "function-paste",
+          callback: paste,
+        },
       ];
 
       for (var i in functions) {
