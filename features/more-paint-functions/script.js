@@ -11,6 +11,10 @@ export default async function ({ feature, console, scratchClass }) {
       }
     }
 
+    for (var i in items) {
+      items[i].remove();
+    }
+
     paper.tool.onUpdateImage();
   }
 
